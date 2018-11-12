@@ -31,7 +31,7 @@ Now you can create your own workflow using the device and the SIGNL4 Custom Node
 The first part of the above workflow is to listen to device events and to send a SIGNL4 alert if such an event occurs. At the same time we switch off the LED connected to the Raspberry Pi.
 
 The second part is optional and gives an idea about how to handle user acknowledgements. In our case we wait for the user acknowledgement and if a user acknowledges the alert we will switch on the LED on the Raspberry Pi again.
-In order to pass acknowledgement information from SIGNL4 to Losant you would need to create a Webhook in Losant at Weebhooks -> Add Webhook. Then in your SIGNL4 portal you would need to add this Webhook at Development -> Webhooks -> Add. Please note there might be a $ sign at the end of the Losant Webhook address. You cannot use this one directly in the SIGNL4 Webhook address but you can just encode it a %24.
+In order to pass acknowledgement information from SIGNL4 to Losant you would need to create a webhook in Losant at Weebhooks -> Add webhook. Then in your SIGNL4 portal you would need to add this webhook at Development -> webhooks -> Add. Please note there might be a $ sign at the end of the Losant webhook address. You cannot use this one directly in the SIGNL4 webhook address but you can just encode it a %24.
 
 You can use the buttons to test the work flow. The SIGNL4 Alert node takes two input parameters:
 Team Secret: This is the last part of your webhook URL: https://connect.signl4.com/webhook/<teamsecret>.
