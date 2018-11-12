@@ -15,7 +15,7 @@ Losant (https://www.losant.com) offers an easy-to-use and powerful Enterprise Io
 ## Integration Steps
 
 1. Import the SIGNL4 Custom Node in Losant
-In the Losant dashboard go to Workflows -> Custom Nodes and import the SIGNL4 Custom Node. You can find this one at Github (https://github.com/signl4/signl4-integration-losant). The file is called “signl4-alert-develop.node”.
+In the Losant dashboard go to Workflows -> Custom Nodes and import the SIGNL4 Custom Node. You can find this one at Github (https://github.com/signl4/signl4-integration-losant). The file is called “signl4-alert-v100.node”.
 
  ![SIGNL4 Custom Node](SIGNL4-Custom-Node.png)
 
