@@ -1,4 +1,6 @@
-# Integrating SIGNL4 with Losant’s IoT Platform
+# SIGNL4 - Mobile Alerting via app, push, text, voice with tracking & escalation
+
+## Integrating SIGNL4 with Losant’s IoT Platform
 
 Gathering events from IoT devices and sending team alerts in case of critical incidents is a broad field. It starts with simple prototypes using a Raspberry Pi and goes up to industrial IoT scenarios, machine data or distributed systems in the field.
 
